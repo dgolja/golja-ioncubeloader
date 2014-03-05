@@ -1,0 +1,27 @@
+{
+  "author": "golja",
+  "checksums": {
+    "Rakefile": "d841d4d9d5ed6dc8a9ea9747e3df1137",
+    "Gemfile": "cc73c011bf499756dc6c0b3a238db90c",
+    "manifests/service.pp": "b40a480151e64810ed80b4471f1f91ad",
+    "spec/classes/ioncubeloader_init_spec.rb": "86d75dbb464d4a7011b480741d6487ca",
+    "Modulefile": "3bbc86ea76383e28b76d38dbeb2beefe",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "tests/init.pp": "6747ba225e26171c43766ddbe03c235c",
+    "spec/spec_helper.rb": "0db89c9a486df193c0e40095422e19dc",
+    ".fixtures.yml": "fc8ba00e96147053a9d6b0be4a0ed7af",
+    "manifests/params.pp": "8c033547d3aed37ea9b4c491225012f6",
+    "manifests/init.pp": "bd17a9474502d01c966a02f3e396a195",
+    "README.md": "3a34b7e8fa306fa42e52067a0931c99a",
+    "Gemfile.lock": "c2959fa1f6317122447aa30dcd56272f"
+  },
+  "dependencies": [],
+  "description": "Install ioncube decoder support for Apache",
+  "license": "Apache License, Version 2.0",
+  "name": "golja-ioncubeloader",
+  "project_page": "https://github.com/n1tr0g/golja-ioncubeloader/",
+  "source": "https://github.com/n1tr0g/golja-ioncubeloader.git",
+  "summary": "Ioncube loader support for php",
+  "types": [],
+  "version": "0.1.0"
+}

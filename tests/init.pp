@@ -1,0 +1,2 @@
+# simple example
+include '::ioncubeloader'
