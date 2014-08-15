@@ -1,7 +1,7 @@
 # private class
-# this class is used if you don't manage the http service
-# with another puppet modules and you would like that ioncube
-# make sure to restart the service after installing the module
+# this class can be used if you don't manage the http service
+# with another puppet module and you would like to restart
+# the service after installing the ioncubeloader
 class ioncubeloader::service inherits ioncubeloader::params {
 
   service { 'httpd':
