@@ -18,7 +18,12 @@ class ioncubeloader::params {
       $service_provider = undef
   } elsif $::osfamily == 'Debian' {
       $service_name = 'apache2'
-      $php_version  = '5.3'
+      case $::operatingsystemmajrelease {
+        8: { $php_version  = '5.6'}
+        7: { $php_version  = '5.4'}
+        6: { $php_version  = '5.3'}
+        default: { $php_version  = '5.4' }
+      }
       $php_conf_dir = '/etc/php5/conf.d'
       if $::operatingsystem == 'Ubuntu' {
         $service_provider = 'upstart'
