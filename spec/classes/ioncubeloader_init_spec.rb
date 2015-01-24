@@ -68,7 +68,7 @@ describe 'ioncubeloader', :type => :class do
     it { should compile }
     it { should contain_exec('retrieve_ioncubeloader') }
     it { should contain_file('/etc/php5/conf.d/ioncube.ini').with('ensure'  => 'present') }
-    it { should contain_file('/etc/php5/conf.d/ioncube.ini').with_content(/zend_extension=\/usr\/local\/ioncube\/ioncube_loader_lin_5.3_ts.so/) }
+    it { should contain_file('/etc/php5/conf.d/ioncube.ini').with_content(/zend_extension=\/usr\/local\/ioncube\/ioncube_loader_lin_5.4_ts.so/) }
 
     context "with custom params" do
       let (:params) do
