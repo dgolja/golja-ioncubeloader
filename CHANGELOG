@@ -1,3 +1,5 @@
+2015-01-26 - Dejan Golja <dejan@golja.org> - 0.1.2
+* Improved support for Debian
 2014-08-16 - Dejan Golja <dejan@golja.org> - 0.1.1
 * Update metadata.json and removed Modulefile due to as of Puppet 3.6 the Modulefile has been deprecated
 2014-03-05 - Dejan Golja <dejan@golja.org> - 0.1.0
