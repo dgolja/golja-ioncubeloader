@@ -46,7 +46,7 @@ class ioncubeloader(
 
   file { "${php_conf_dir}/${ini_file}":
     ensure  => $ensure,
-    content => ";Managed by puppet\nzend_extension=${install_prefix}/ioncube/${ioncube_loader}\n"
+    content => ";Managed by puppet\n; priority=0\nzend_extension=${install_prefix}/ioncube/${ioncube_loader}\n"
   }
 
   if $ensure == 'present' {
